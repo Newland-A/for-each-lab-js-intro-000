@@ -10,8 +10,8 @@ array.forEach(element => {
 
 }
 
-function iterate(array, callbackFunction){
-  var animals = [1,2,3,4,5,6];
+function iterate(callbackFunction){
+  var array = [1,2,3,4,5,6];
   array.forEach(callbackFunction);
   return array;
 }
