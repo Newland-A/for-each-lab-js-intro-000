@@ -11,8 +11,8 @@ array.forEach(element => {
 }
 
 function iterate(array){
-  var animals = [1,2,3,4,5,6] 
-  array.forEach(callbackfunction);
+  var animals = [1,2,3,4,5,6];
+  array.forEach(callbackFunction);
   return array;
 }
 /*
